@@ -1,0 +1,50 @@
+{
+  "complete": true,
+  "smoke_test": false,
+  "config": {
+    "name": "gan_lr1e4",
+    "model": "gan",
+    "epochs": 50,
+    "lr": 0.0001,
+    "n_train": 50000,
+    "batch_size": 256,
+    "hidden": 512,
+    "depth": 1,
+    "seed": 5494,
+    "smoke_test": false,
+    "split_seed": 5494,
+    "binary_threshold": 0.5,
+    "schema_version": 1
+  },
+  "selection": "final fixed epoch",
+  "selected_epoch": 50,
+  "parameters_allocated": 559632,
+  "parameters_active": 559632,
+  "n_validation": null,
+  "n_test": null,
+  "validation_nll_nats": null,
+  "test_nll_nats": null,
+  "test_bits_per_dimension": null,
+  "training_optimization_seconds": 510.77469129976816,
+  "run_wall_seconds": 514.499918699963,
+  "inference_samples_per_repeat": 64,
+  "inference_seconds": [
+    0.005519600003026426,
+    0.004899299994576722,
+    0.003371400001924485
+  ],
+  "inference_seconds_median": 0.004899299994576722,
+  "sample_seed": 7494,
+  "progress_epochs": [
+    1,
+    13,
+    25,
+    38,
+    50
+  ],
+  "device": "cpu",
+  "gpu_name": null,
+  "python": "3.12.7",
+  "torch": "2.14.0+cpu",
+  "sample_sha256": "13687208da3e2a2a4132b83d6e132616657cbb77c867818874a2e02ba900931a"
+}

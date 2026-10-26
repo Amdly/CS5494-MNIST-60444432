@@ -1,0 +1,15 @@
+{
+  "name": "made_10k",
+  "model": "made",
+  "epochs": 40,
+  "lr": 0.001,
+  "n_train": 10000,
+  "batch_size": 256,
+  "hidden": 512,
+  "depth": 1,
+  "seed": 5494,
+  "smoke_test": false,
+  "split_seed": 5494,
+  "binary_threshold": 0.5,
+  "schema_version": 1
+}

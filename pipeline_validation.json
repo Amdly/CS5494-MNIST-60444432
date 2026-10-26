@@ -1,0 +1,74 @@
+{
+  "smoke_experiments": {
+    "fvsbn_main": {
+      "passed": true,
+      "sample_shape": [
+        16,
+        784
+      ],
+      "n_train": 512,
+      "epochs": 2,
+      "device": "cpu"
+    },
+    "gan_lr1e4": {
+      "passed": true,
+      "sample_shape": [
+        16,
+        784
+      ],
+      "n_train": 512,
+      "epochs": 2,
+      "device": "cpu"
+    },
+    "gan_main": {
+      "passed": true,
+      "sample_shape": [
+        16,
+        784
+      ],
+      "n_train": 512,
+      "epochs": 2,
+      "device": "cpu"
+    },
+    "made_10k": {
+      "passed": true,
+      "sample_shape": [
+        16,
+        784
+      ],
+      "n_train": 512,
+      "epochs": 2,
+      "device": "cpu"
+    },
+    "made_depth2": {
+      "passed": true,
+      "sample_shape": [
+        16,
+        784
+      ],
+      "n_train": 512,
+      "epochs": 2,
+      "device": "cpu"
+    },
+    "made_main": {
+      "passed": true,
+      "sample_shape": [
+        16,
+        784
+      ],
+      "n_train": 512,
+      "epochs": 2,
+      "device": "cpu"
+    }
+  },
+  "embedded_sources_match": {
+    "models.py": true,
+    "data.py": true,
+    "check_models.py": true,
+    "train.py": true,
+    "diagnostics.py": true,
+    "export_results.py": true
+  },
+  "gan_resume_bitwise_equal_cpu": true,
+  "note": "Correctness and workflow validation only. Formal GPU execution and final report pending."
+}

@@ -1,0 +1,50 @@
+{
+  "complete": true,
+  "smoke_test": false,
+  "config": {
+    "name": "made_10k",
+    "model": "made",
+    "epochs": 40,
+    "lr": 0.001,
+    "n_train": 10000,
+    "batch_size": 256,
+    "hidden": 512,
+    "depth": 1,
+    "seed": 5494,
+    "smoke_test": false,
+    "split_seed": 5494,
+    "binary_threshold": 0.5,
+    "schema_version": 1
+  },
+  "selection": "minimum validation NLL",
+  "selected_epoch": 40,
+  "parameters_allocated": 804112,
+  "parameters_active": 402704,
+  "n_validation": 10000,
+  "n_test": 10000,
+  "validation_nll_nats": 100.79171796875,
+  "test_nll_nats": 99.734957421875,
+  "test_bits_per_dimension": 0.18352950060690176,
+  "training_optimization_seconds": 43.67909089999739,
+  "run_wall_seconds": 89.31332010001643,
+  "inference_samples_per_repeat": 64,
+  "inference_seconds": [
+    1.433537199976854,
+    1.4440658999956213,
+    1.4295533000258729
+  ],
+  "inference_seconds_median": 1.433537199976854,
+  "sample_seed": 7494,
+  "progress_epochs": [
+    1,
+    11,
+    21,
+    30,
+    40
+  ],
+  "device": "cpu",
+  "gpu_name": null,
+  "python": "3.12.7",
+  "torch": "2.14.0+cpu",
+  "sample_sha256": "7c7f860b6158860aa884cb721e27ca6c44724cf7c46c85c2047f476ae46f8a2e"
+}

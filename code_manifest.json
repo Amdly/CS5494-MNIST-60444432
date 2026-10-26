@@ -1,0 +1,22 @@
+{
+  "author": "Zian LI",
+  "student_id": "60444432",
+  "eid": "zli934",
+  "purpose": "Source code and local workflow checks; formal training results are separate.",
+  "files": {
+    "models.py": "bcc6040c467f8680dff55f4d07a1dbc628daadb59af4bb867298b5d51e5f6ed8",
+    "data.py": "765d7b706177bea5efaed1a21f32d00ed356178703fdc18bd3a9397200a6894f",
+    "check_models.py": "d50e72beda98b0649c8b520b8d75d9531e667ebd31c2dadf85a90697eeb05c08",
+    "train.py": "fedcde948a53873dd118d2711dca96ed1bca8a454d72aad3c21d39ff674d0e02",
+    "diagnostics.py": "70de500604437525c19546a73e17644d4a02b51280cfef657b9f1a7d7f147a4d",
+    "export_results.py": "a35990cc92d4394ebe83884492e737c602fe5ffdadac2491d7d7e5763a1e73f3",
+    "build_notebook.py": "5c11cf323740c7dc3d0f4104af8d6484ab8980e7ef9370ed0fbbcbce85feb5c9",
+    "validate_pipeline.py": "a15a9006653d8f8b2c94c00c563ff26b682dc0bc8c40b88f74d2de75069fe92c",
+    "package_code.py": "0afee050bfc553f36a8b5f67c532cc1f4d7962d4f76bb8cd499c78e2a6751fd5",
+    "MNIST_Colab.ipynb": "c0daf771e73a9a4d6e0e6cd43da30d85fe6c3c49eb1c2d35f210ca221f068dc8",
+    "README.md": "acfb1707285ef7ea683b755ee6e36894310eacf67e7abe5b7913692274287fb4",
+    "requirements.txt": "82a3ce06d2dd1426ce680783f9818b2803684e854db358cc2d14a00677c41025",
+    "model_checks.json": "eca3e7aceeac4dcfa3191d00b70f62f6b0f809c0cf1d3c7ce8563904cf79b143",
+    "pipeline_validation.json": "29896c5817683a973187f00ed17df1ea9070e86eba3c5021397152bf49c6a42e"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "autoregressive_checks": [
+    {
+      "model": "FVSBN",
+      "layers": 2,
+      "causality": true,
+      "joint_probability_sum": 1.0,
+      "finite_difference": true,
+      "masked_gradients_zero": true
+    },
+    {
+      "model": "MADE",
+      "layers": 5,
+      "causality": true,
+      "joint_probability_sum": 1.0,
+      "finite_difference": true,
+      "masked_gradients_zero": true
+    },
+    {
+      "model": "MADE",
+      "layers": 7,
+      "causality": true,
+      "joint_probability_sum": 0.9999999999999998,
+      "finite_difference": true,
+      "masked_gradients_zero": true
+    }
+  ],
+  "gan_gradient_routing": true
+}

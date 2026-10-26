@@ -1,0 +1,50 @@
+{
+  "complete": true,
+  "smoke_test": false,
+  "config": {
+    "name": "fvsbn_main",
+    "model": "fvsbn",
+    "epochs": 30,
+    "lr": 0.001,
+    "n_train": 50000,
+    "batch_size": 256,
+    "hidden": 512,
+    "depth": 1,
+    "seed": 5494,
+    "smoke_test": false,
+    "split_seed": 5494,
+    "binary_threshold": 0.5,
+    "schema_version": 1
+  },
+  "selection": "minimum validation NLL",
+  "selected_epoch": 30,
+  "parameters_allocated": 615440,
+  "parameters_active": 307720,
+  "n_validation": 10000,
+  "n_test": 10000,
+  "validation_nll_nats": 83.76129296875,
+  "test_nll_nats": 82.881666015625,
+  "test_bits_per_dimension": 0.15251654150683358,
+  "training_optimization_seconds": 136.58768009999767,
+  "run_wall_seconds": 154.3646780999843,
+  "inference_samples_per_repeat": 64,
+  "inference_seconds": [
+    0.137464799976442,
+    0.14767510001547635,
+    0.16743390000192448
+  ],
+  "inference_seconds_median": 0.14767510001547635,
+  "sample_seed": 7494,
+  "progress_epochs": [
+    1,
+    8,
+    15,
+    23,
+    30
+  ],
+  "device": "cpu",
+  "gpu_name": null,
+  "python": "3.12.7",
+  "torch": "2.14.0+cpu",
+  "sample_sha256": "62f6afbc9edfa6549315baaa22071ee70f1219c9d7a45da9ef40af8039cf4896"
+}
